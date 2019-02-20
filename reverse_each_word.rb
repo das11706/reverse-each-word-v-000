@@ -8,7 +8,7 @@ end
 
 def reverse_each_word(sentence)
   rev_sentence = []
-  sentence.split.map do |word|
+  sentence.split.collect do |word|
   rev_sentence << word.reverse!
   end
   rev_sentence.join(" ")
