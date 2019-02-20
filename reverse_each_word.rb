@@ -8,7 +8,7 @@ end
 
 def reverse_each_word(sentence)
   sentence.split.collect do |word|
-  word.reverse = new_arr
+  new_arr = word.reverse 
   new_arr
   end
 end
