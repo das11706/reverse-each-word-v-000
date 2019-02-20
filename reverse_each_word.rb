@@ -7,8 +7,10 @@ def reverse_each_word(sentence)
 end
 
 def reverse_each_word(sentence)
-  sentence
+  sentence.map do |word|
+    word.reverse
+
   #sentence.collect do |word|
 
-  #end
+  end
 end
